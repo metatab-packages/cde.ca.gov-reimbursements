@@ -1,26 +1,29 @@
-Declare,metatab-latest,,,,
-Title, Reimbursement Rates,,,,
-Description,Child Nutrition Program meal program reimbursement rates.,,,,
-Identifier,ed5013a7-08e0-4a88-ac70-0dffc56dc90d,,,,
-Name,cde.ca.gov-reimbursements-1,,,,
-Dataset,reimbursements,,,,
-Origin,cde.ca.gov,,,,
-Time,,,,,
-Space,,,,,
-Grain,,,,,
-Variant,,,,,
-Version,1,,,,
-Created,2019-05-02T16:16:57,,,,
-Modified,2019-05-02T20:37:42,,,,
-Giturl,https://github.com/sandiegodata-projects/sandiegohungercoalition.org.git,,,,
-,,,,,
+Declare,metatab-latest
+Title,Reimbursement Rates
+Description,Child Nutrition Program meal program reimbursement rates.
+Identifier,ed5013a7-08e0-4a88-ac70-0dffc56dc90d
+Name,cde.ca.gov-reimbursements-1.1.1
+Dataset,reimbursements
+Origin,cde.ca.gov
+Time,
+Space,
+Grain,
+Variant,
+Version,1.1.1
+Version.Major,1
+Version.Minor,1
+Version.Patch,1
+Created,2019-05-02T16:16:57
+Modified,2021-02-25T01:22:56
+Giturl,https://github.com/sandiegodata-projects/sandiegohungercoalition.org.git
+""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
-,,,,,
+""
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
 Homepage,https://www.cde.ca.gov/ls/nu/rs/index.asp,Homepage,,,
-,,,,,
+""
 Section,References,Name,Group,Year,
 Reference,file:data/cacfpreimburse_2013.csv#&encoding=ascii,cacfpreimburse_2013,cacfpreimburse,2013,
 Reference,file:data/cacfpreimburse_2014.csv#&encoding=ascii,cacfpreimburse_2014,cacfpreimburse,2014,
@@ -52,15 +55,14 @@ Reference,file:data/summerreimburse_2015.csv#&encoding=ascii,summerreimburse_201
 Reference,file:data/summerreimburse_2016.csv#&encoding=ascii,summerreimburse_2016,summerreimburse,2016,
 Reference,file:data/summerreimburse_2017.csv#&encoding=ascii,summerreimburse_2017,summerreimburse,2017,
 Reference,file:data/summerreimburse_2018.csv#&encoding=ascii,summerreimburse_2018,summerreimburse,2018,
-,,,,,
+""
 Section,Resources,Name,RefArgs,Group,Description
 Datafile,python:metapack_build.rowgenerator#copy_reference_group_s,cacfpreimburse,Year,cacfpreimburse,Child and Adult Care Food Program
 Datafile,python:metapack_build.rowgenerator#copy_reference_group_s,nslpreimburse,Year,nslpreimburse,National School Lunch Program
 Datafile,python:metapack_build.rowgenerator#copy_reference_group_s,sbpreimburse,Year,sbpreimburse,School Breakfast Program
 Datafile,python:metapack_build.rowgenerator#copy_reference_group_s,snackreimburse,Year,snackreimburse,Meal Supplements (After-School Snacks) in the National School Lunch Program
 Datafile,python:metapack_build.rowgenerator#copy_reference_group_s,summerreimburse,Year,summerreimburse,Summer Food Service Program
-,,,,,
-,,,,,
+""
 Section,Schema,DataType,Transform,Description,Altname
 Table,cacfpreimburse,,,,
 Table.Column,year,int,,,
