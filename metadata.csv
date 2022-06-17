@@ -2,20 +2,20 @@ Declare,metatab-latest
 Title,Reimbursement Rates
 Description,Child Nutrition Program meal program reimbursement rates.
 Identifier,ed5013a7-08e0-4a88-ac70-0dffc56dc90d
-Name,cde.ca.gov-reimbursements-1.1.1
+Name,cde.ca.gov-reimbursements-1.1.2
 Dataset,reimbursements
 Origin,cde.ca.gov
 Time,
 Space,
 Grain,
 Variant,
-Version,1.1.1
+Version,1.1.2
 Version.Major,1
 Version.Minor,1
-Version.Patch,1
+Version.Patch,2
 Created,2019-05-02T16:16:57
-Modified,2021-02-25T01:22:56
-Giturl,https://github.com/sandiegodata-projects/sandiegohungercoalition.org.git
+Modified,2022-06-17T17:11:32
+Giturl,https://github.com/metatab-packages/cde.ca.gov-reimbursements.git
 ""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
